@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+h1,h3{
+    font-weight: 500;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+}
+.sec1{
+    width: 100%;
+    display: inline-block;
+    margin-top: 3%;
+    float: left;
+}
+.sec1_1{
+    width: 35%;
+    float: left;
+    padding: 2% 2%;
+    height: 266px;
+    background-color: #F2D8D6;
+}
+.sec1_1 h1{
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 12%;
+    margin-top: 7%;
+}
+hr{
+    width:12%;
+    background-color: black;
+    border: none;
+    height: 2px;
+    margin-left:12%;
+    margin-bottom: 4%;
+}
+.all_icons{
+    margin-left:12%;
+}
+.mail_icn{
+    display: flex;
+}
+.icn{
+    border: 1px solid white;
+    height: 24px;
+    width: 10%;
+    border-radius: 90%;
+    background: white;
+    margin-top: 2%;
+}
+i{
+    font-size: 12px !important;
+    margin-left: 24%;
+    margin-top: 19%;
+    background: white;
+}
+.icn_p{
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.tel_img{
+    display: flex;
+}
+.img_tel{
+    margin-top: 3%;
+}
+.img_tel img{
+    height: 22px;
+    border-radius: 100%;
+}
+.tel_img_p{
+    margin-top: 4%;
+    margin-left: 5%;
+}
+.loc_img{
+    display: flex;
+}
+.img_loc{
+    margin-top: 3%;
+}
+.img_loc img{
+    height: 22px;
+    border-radius: 100%;
+}
+.loc_img_p{
+    margin-top: 4%;
+    margin-left: 5%;
+}
+.sec1_2{
+    width:65%;
+    float:left;
+    padding: 7% 4% 4% 7%;
+    text-align: justify;
+    background-color: #FCF7F7;
+    height: 266px;
+}
+.sec1_2 h3{
+    font-weight: 500;
+    padding-bottom: 3%;
+}
+.sec2{
+    width: 100%;
+    float:left;
+    margin: 0 0 3%;
+}
+.sec2_1{
+    width:35%;
+    float:left;
+    background-color: #FAEFEF;
+    height: 765px;
+}
+.sec2_1 h3{
+    padding: 12% 15.5% 1%;
+    font-weight: 500;
+}
+.sec2_1 ul{
+    padding: 3% 20.5%;
+    font-size: 16px;
+}
+.sec2_1 p{
+    padding:1% 15.5%;
+}
+.sec2_1 span{
+    font-weight: 500;
+}
+.sec2_2{
+    width:65%;
+    float:left;
+    padding:0 2%;
+}
+#sec2_2_h3_1{
+    padding:8% 0 2% 9%;
+}
+#sec2_2_h3_2{
+    padding:3% 0 2% 9%;
+}
+.sec2_2 ul{
+    padding:0 3% 0 13%;
+}
+#sec2_1_h_2{
+    padding-top: 9%;
+}
+.sec2_l_h3{
+    margin-left: 9%;
+}
+
+@media screen and (max-width: 568px){
+    .sec1_1,.sec1_2,.sec2_1,.sec2_2{
+        width:100%;
+    }
+    .sec2{
+        margin-bottom: 0;
+        float: left;
+    }
+
+}
